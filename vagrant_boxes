@@ -1,0 +1,8 @@
+centos/8
+centos/7
+fedora/31-cloud-base
+fedora/30-cloud-base
+ubuntu/bionic64
+ubuntu/xenial64
+debian/buster64
+debian/stretch64
