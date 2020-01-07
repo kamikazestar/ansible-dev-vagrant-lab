@@ -1,0 +1,52 @@
+ansible-dev-centos8 ansible_host=192.168.123.10
+ansible-dev-centos7 ansible_host=192.168.123.11
+ansible-dev-fedora31 ansible_host=192.168.123.12
+ansible-dev-fedora30 ansible_host=192.168.123.13
+ansible-dev-amznlinux2 ansible_host=192.168.123.14
+ansible-dev-ubuntu1804 ansible_host=192.168.123.15
+ansible-dev-ubuntu1604 ansible_host=192.168.123.16
+ansible-dev-debian10 ansible_host=192.168.123.17
+ansible-dev-debian9 ansible_host=192.168.123.18
+
+[ansible_dev_all]
+ansible-dev-centos8
+ansible-dev-centos7
+ansible-dev-fedora31
+ansible-dev-fedora30
+ansible-dev-amxnlinux2
+ansible-dev-ubuntu1804
+ansible-dev-ubuntu1604
+ansible-dev-debian10
+ansible-dev-debian9
+
+[ansible_dev_redhat_based]
+ansible-dev-centos8
+ansible-dev-centos7
+ansible-dev-fedora31
+ansible-dev-fedora30
+ansible-dev-amxnlinux2
+
+[ansible_dev_debian_based]
+ansible-dev-ubuntu1804
+ansible-dev-ubuntu1604
+ansible-dev-debian10
+ansible-dev-debian9
+
+[ansible_dev_cenos]
+ansible-dev-centos8
+ansible-dev-centos7
+
+[ansible_dev_fedora]
+ansible-dev-fedora31
+ansible-dev-fedora30
+
+[ansible_dev_amznlinux2]
+ansible-dev-amxnlinux2
+
+[ansible_dev_ubuntu]
+ansible-dev-ubuntu1804
+ansible-dev-ubuntu1604
+
+[ansible_dev_debian]
+ansible-dev-debian10
+ansible-dev-debian9
